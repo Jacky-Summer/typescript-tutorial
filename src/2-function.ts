@@ -18,7 +18,7 @@ let func4 = function (x: number, y: number): number {
   return x + y
 }
 // => 用来表示函数的定义，左边是输入类型，需要用括号括起来，右边是输出类型。
-let func5: (x: number, y: number) => number = function (x: number, y: number): number {
+let func5: (x: number, y: number) => number = (x, y) => {
   return x + y
 }
 

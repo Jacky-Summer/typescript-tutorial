@@ -35,4 +35,4 @@ let value1Length: number = (<string>value1).length
 
 // 类型断言第二种方式：as
 let value2: any = 'world'
-let value2Length: number = (<string>value2).length
+let value2Length: number = (value2 as string).length
